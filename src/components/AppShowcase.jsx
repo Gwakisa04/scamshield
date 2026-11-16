@@ -9,7 +9,7 @@ export default function AppShowcase() {
 
   return (
     <section className="app-showcase">
-      <div className="app-showcase-glow app-showcase-glow--blue" aria-hidden="true" />
+        <div className="app-showcase-glow app-showcase-glow--rose" aria-hidden="true" />
       <div className="app-showcase-glow app-showcase-glow--green" aria-hidden="true" />
       <div className="app-showcase-inner">
         <ScrollReveal variant="fade-up" className="app-showcase-copy">
@@ -35,6 +35,14 @@ export default function AppShowcase() {
               loading="lazy"
               width={400}
               height={800}
+            />
+            <img
+              src="./robot.png"
+              alt="ScamShield AI robot mascot"
+              className="showcase-robot"
+              loading="lazy"
+              width={140}
+              height={140}
             />
           </div>
         </ScrollReveal>

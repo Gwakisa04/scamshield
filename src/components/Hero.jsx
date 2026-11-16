@@ -11,7 +11,7 @@ export default function Hero({
   showDownload = false,
   showScroll = false,
   downloadLabel = 'Download ScamShield',
-  downloadSub = 'Free Android APK · ~22 MB',
+  downloadSub = 'Free Android APK · ~53 MB',
   scrollLabel = 'Scroll',
   children,
 }) {

@@ -15,7 +15,7 @@
       subtitle:
         'ScamShield uses SwahBERT — AI trained for Swahili and code-mixed SMS — to spot fraud before you reply, send money, or share personal details.',
       download: 'Download ScamShield',
-      downloadSub: 'Free Android APK · ~22 MB',
+      downloadSub: 'Free Android APK · ~53 MB',
       scroll: 'Scroll',
       showcase: {
         label: 'The app in action',
@@ -97,7 +97,7 @@
       subtitle:
         'ScamShield hutumia SwahBERT — AI iliyofunzwa kwa SMS za Kiswahili na mchanganyiko — kugundua ulaghai kabla hujibu, kutuma pesa, au kushiriki taarifa.',
       download: 'Pakua ScamShield',
-      downloadSub: 'APK ya Android · ~22 MB',
+      downloadSub: 'APK ya Android · ~53 MB',
       scroll: 'Sogeza',
       showcase: {
         label: 'Programu ikifanya kazi',

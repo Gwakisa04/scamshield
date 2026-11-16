@@ -1,4 +1,4 @@
-import { Section, DownloadBanner } from '../components/Hero'
+﻿import { Section, DownloadBanner } from '../components/Hero'
 import ScrollReveal, { StaggerGroup } from '../components/ScrollReveal'
 import { APK_URL } from '../constants'
 import { useLanguage } from '../context/LanguageContext'
@@ -42,7 +42,7 @@ const FEATURES = [
   },
   {
     title: 'Share-to-scan',
-    body: 'Forward a suspicious SMS from any app directly into SalamaScan for one-tap analysis.',
+    body: 'Forward a suspicious SMS from any app directly into ScamShield for one-tap analysis.',
   },
   {
     title: 'Privacy controls',
@@ -139,7 +139,7 @@ export default function Features() {
         </ScrollReveal>
         <ol className="steps">
           {[
-            { strong: 'Download', rest: 'Tap the button below to save SalamaScan.apk to your phone.' },
+            { strong: 'Download', rest: 'Tap the button below to save ScamShield.apk to your phone.' },
             { strong: 'Install', rest: 'Open the file and allow install from this source if asked.' },
             { strong: 'Protect', rest: 'Grant SMS receive and notifications only if you want automatic monitoring.' },
           ].map((step, i) => (

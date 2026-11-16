@@ -1,4 +1,4 @@
-import ScrollReveal from './ScrollReveal'
+﻿import ScrollReveal from './ScrollReveal'
 import { APK_URL } from '../constants'
 
 export default function Hero({
@@ -10,7 +10,7 @@ export default function Hero({
   subtitle,
   showDownload = false,
   showScroll = false,
-  downloadLabel = 'Download SalamaScan',
+  downloadLabel = 'Download ScamShield',
   downloadSub = 'Free Android APK · ~22 MB',
   scrollLabel = 'Scroll',
   children,

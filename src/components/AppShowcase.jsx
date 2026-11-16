@@ -1,4 +1,4 @@
-import ScrollReveal from './ScrollReveal'
+﻿import ScrollReveal from './ScrollReveal'
 import { useLanguage } from '../context/LanguageContext'
 
 const APP_PIC = './pic.png'
@@ -30,7 +30,7 @@ export default function AppShowcase() {
             <div className="phone-frame-ring" aria-hidden="true" />
             <img
               src={APP_PIC}
-              alt="SalamaScan mobile app — live scam detection and SwahBERT analysis"
+              alt="ScamShield mobile app — live scam detection and SwahBERT analysis"
               className="phone-screenshot"
               loading="lazy"
               width={400}

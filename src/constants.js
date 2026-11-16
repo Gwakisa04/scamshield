@@ -1,5 +1,5 @@
-export const APK_URL = './SalamaScan.apk'
-export const APK_FILENAME = 'SalamaScan.apk'
+﻿export const APK_URL = './ScamShield.apk'
+export const APK_FILENAME = 'ScamShield.apk'
 
 export const IMAGES = {
   home: 'https://images.unsplash.com/photo-1578986568309-707ef1017f69?w=1920&q=80&auto=format&fit=crop',

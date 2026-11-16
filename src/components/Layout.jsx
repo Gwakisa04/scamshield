@@ -1,4 +1,4 @@
-import { Link, useLocation } from 'react-router-dom'
+﻿import { Link, useLocation } from 'react-router-dom'
 import Logo from './Logo'
 import LanguageFab from './LanguageFab'
 import { APK_URL } from '../constants'
@@ -17,9 +17,9 @@ export default function Layout({ children }) {
   return (
     <div className="site">
       <header className="site-header">
-        <Link to="/" className="brand" aria-label="SalamaScan home">
+        <Link to="/" className="brand" aria-label="ScamShield home">
           <Logo />
-          <span className="brand-name">SALAMASCAN</span>
+          <span className="brand-name">ScamShield</span>
         </Link>
 
         <nav className="site-nav" aria-label="Main navigation">
@@ -45,7 +45,7 @@ export default function Layout({ children }) {
         <div className="footer-inner">
           <div className="footer-brand">
             <Logo size={32} />
-            <span>SalamaScan</span>
+            <span>ScamShield</span>
           </div>
           <p className="footer-tagline">{t('footer.tagline')}</p>
           <nav className="footer-nav">

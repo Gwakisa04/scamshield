@@ -1,4 +1,4 @@
-import Hero, { Section, DownloadBanner } from '../components/Hero'
+﻿import Hero, { Section, DownloadBanner } from '../components/Hero'
 import ScrollReveal, { StaggerGroup } from '../components/ScrollReveal'
 import { IMAGES, UNSPLASH_CREDITS } from '../constants'
 import { useLanguage } from '../context/LanguageContext'
@@ -49,7 +49,7 @@ export default function About() {
         <ScrollReveal variant="fade-up" delay={80}>
           <div className="prose">
             <p>
-              SalamaScan connects to <strong>SwahBERT</strong>, a machine-learning API built
+              ScamShield connects to <strong>SwahBERT</strong>, a machine-learning API built
               for Swahili SMS classification. The model learns patterns from real scam and
               legitimate messages — prize claims, phishing links, impersonation, and normal
               personal chats.
@@ -113,7 +113,7 @@ export default function About() {
         <ScrollReveal variant="fade-up" delay={100}>
           <div className="prose">
             <p>
-              SalamaScan is a Final Year Project focused on everyday Android users: students,
+              ScamShield is a Final Year Project focused on everyday Android users: students,
               shop owners, parents, and anyone who relies on SMS for money and work. The
               interface is simple, dark-mode friendly, and readable on small displays.
             </p>

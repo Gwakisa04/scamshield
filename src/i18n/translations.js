@@ -1,11 +1,11 @@
-export const translations = {
+﻿export const translations = {
   en: {
     nav: { home: 'Home', about: 'About', features: 'Features', download: 'Download' },
     footer: {
       tagline:
         'Swahili-first AI protection against SMS scams. Your messages stay on your phone — we help you decide what is safe.',
       download: 'Download APK',
-      copy: 'SalamaScan · Final Year Project · Tanzania',
+      copy: 'ScamShield · Final Year Project · Tanzania',
     },
     lang: { label: 'Language', en: 'English', sw: 'Kiswahili' },
     home: {
@@ -13,8 +13,8 @@ export const translations = {
       title: 'Scam messages were never our ',
       accent: 'HIGHEST GOAL.',
       subtitle:
-        'SalamaScan uses SwahBERT — AI trained for Swahili and code-mixed SMS — to spot fraud before you reply, send money, or share personal details.',
-      download: 'Download SalamaScan',
+        'ScamShield uses SwahBERT — AI trained for Swahili and code-mixed SMS — to spot fraud before you reply, send money, or share personal details.',
+      download: 'Download ScamShield',
       downloadSub: 'Free Android APK · ~22 MB',
       scroll: 'Scroll',
       showcase: {
@@ -24,7 +24,7 @@ export const translations = {
         live: 'Live scam detection',
         powered: 'Powered by SwahBERT',
       },
-      why: { label: 'Why SalamaScan', title: 'Security that speaks your language' },
+      why: { label: 'Why ScamShield', title: 'Security that speaks your language' },
       cards: [
         {
           title: 'Swahili expertise',
@@ -49,23 +49,23 @@ export const translations = {
       storyLink: 'Our story →',
       privacy: { label: 'Privacy by design', title: 'We help you stay safe — not harvest your life' },
       privacyItems: [
-        { strong: 'No inbox access', rest: 'SalamaScan does not request READ_SMS. It cannot browse your old messages.' },
+        { strong: 'No inbox access', rest: 'ScamShield does not request READ_SMS. It cannot browse your old messages.' },
         { strong: 'Minimal data sent', rest: 'Only the text you choose to analyze goes to our secure API over HTTPS.' },
         { strong: 'Local history', rest: 'Scan results are stored on your device — not sold to advertisers.' },
         { strong: 'You stay in control', rest: 'Turn off notifications or monitoring anytime in Settings.' },
       ],
       banner: {
         title: 'Ready to protect your inbox?',
-        body: 'Install SalamaScan on Android. Direct APK download — no Play Store required.',
+        body: 'Install ScamShield on Android. Direct APK download — no Play Store required.',
         btn: 'Download APK',
       },
     },
     about: {
-      eyebrow: 'About SalamaScan',
+      eyebrow: 'About ScamShield',
       title: 'The problem is real. ',
       accent: 'So is the solution.',
       subtitle:
-        'Millions lose money to SMS scams in everyday Swahili — not textbook English. We built SalamaScan to close that gap.',
+        'Millions lose money to SMS scams in everyday Swahili — not textbook English. We built ScamShield to close that gap.',
     },
     features: {
       label: 'Features',
@@ -77,7 +77,7 @@ export const translations = {
     },
     download: {
       title: 'Ready to protect your inbox?',
-      body: 'Install SalamaScan on Android. No Play Store required — direct APK download.',
+      body: 'Install ScamShield on Android. No Play Store required — direct APK download.',
       btn: 'Download APK',
     },
   },
@@ -87,7 +87,7 @@ export const translations = {
       tagline:
         'Ulinzi wa SMS kwa AI ya Kiswahili. Ujumbe wako hubaki simjani — tunakusaidia uamue ni salama au la.',
       download: 'Pakua APK',
-      copy: 'SalamaScan · Mradi wa Mwisho · Tanzania',
+      copy: 'ScamShield · Mradi wa Mwisho · Tanzania',
     },
     lang: { label: 'Lugha', en: 'English', sw: 'Kiswahili' },
     home: {
@@ -95,8 +95,8 @@ export const translations = {
       title: 'Ujumbe wa ulaghai haukuwa ',
       accent: 'LENGO LETU.',
       subtitle:
-        'SalamaScan hutumia SwahBERT — AI iliyofunzwa kwa SMS za Kiswahili na mchanganyiko — kugundua ulaghai kabla hujibu, kutuma pesa, au kushiriki taarifa.',
-      download: 'Pakua SalamaScan',
+        'ScamShield hutumia SwahBERT — AI iliyofunzwa kwa SMS za Kiswahili na mchanganyiko — kugundua ulaghai kabla hujibu, kutuma pesa, au kushiriki taarifa.',
+      download: 'Pakua ScamShield',
       downloadSub: 'APK ya Android · ~22 MB',
       scroll: 'Sogeza',
       showcase: {
@@ -106,7 +106,7 @@ export const translations = {
         live: 'Utambuzi wa ulaghai hai',
         powered: 'Inaendeshwa na SwahBERT',
       },
-      why: { label: 'Kwa nini SalamaScan', title: 'Usalama unaozungumza lugha yako' },
+      why: { label: 'Kwa nini ScamShield', title: 'Usalama unaozungumza lugha yako' },
       cards: [
         {
           title: 'Utaalamu wa Kiswahili',
@@ -138,16 +138,16 @@ export const translations = {
       ],
       banner: {
         title: 'Uko tayari kulinda kikasha chako?',
-        body: 'Sakinisha SalamaScan kwenye Android. Pakua APK moja kwa moja.',
+        body: 'Sakinisha ScamShield kwenye Android. Pakua APK moja kwa moja.',
         btn: 'Pakua APK',
       },
     },
     about: {
-      eyebrow: 'Kuhusu SalamaScan',
+      eyebrow: 'Kuhusu ScamShield',
       title: 'Tatizo ni halisi. ',
       accent: 'Suluhisho pia lipo.',
       subtitle:
-        'Mamilioni wanapoteza pesa kwa ulaghai wa SMS kwa Kiswahili cha kila siku. Tulijenga SalamaScan kufunga pengo hilo.',
+        'Mamilioni wanapoteza pesa kwa ulaghai wa SMS kwa Kiswahili cha kila siku. Tulijenga ScamShield kufunga pengo hilo.',
     },
     features: {
       label: 'Vipengele',
@@ -159,7 +159,7 @@ export const translations = {
     },
     download: {
       title: 'Uko tayari kulinda kikasha chako?',
-      body: 'Sakinisha SalamaScan kwenye Android. Pakua APK moja kwa moja.',
+      body: 'Sakinisha ScamShield kwenye Android. Pakua APK moja kwa moja.',
       btn: 'Pakua APK',
     },
   },
